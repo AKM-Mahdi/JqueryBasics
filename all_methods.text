@@ -1,0 +1,58 @@
+Content Manipulation
+--------------------
+.html()         -> Get or set HTML content
+.text()         -> Get or set text content
+.val()          -> Get or set form values
+.empty()        -> Remove all child elements
+.remove()       -> Remove the selected element(s)
+.detach()       -> Remove elements but keep their data/events
+.unwrap()       -> Remove parent element
+.replaceWith()  -> Replace selected element(s)
+.replaceAll()   -> Replace target element(s)
+
+Insertion Inside Elements
+-------------------------
+.append()       -> Insert content at the end inside an element
+.appendTo()     -> Insert content at the end inside another element
+.prepend()      -> Insert content at the beginning inside an element
+.prependTo()    -> Insert content at the beginning inside another element
+
+Insertion Outside Elements
+--------------------------
+.after()        -> Insert content after an element
+.before()       -> Insert content before an element
+.insertAfter()  -> Insert element(s) after target
+.insertBefore() -> Insert element(s) before target
+
+Cloning / Copying
+-----------------
+.clone()        -> Make a copy of element(s)
+
+Wrapping Elements
+-----------------
+.wrap()         -> Wrap an element individually with HTML
+.wrapAll()      -> Wrap all selected elements together
+.wrapInner()    -> Wrap inner content of elements
+
+Attributes & Properties
+-----------------------
+.attr()         -> Get or set attributes
+.removeAttr()   -> Remove attribute
+.prop()         -> Get or set properties
+.removeProp()   -> Remove a property
+
+CSS & Classes
+-------------
+.addClass()     -> Add CSS class
+.removeClass()  -> Remove CSS class
+.toggleClass()  -> Toggle CSS class
+.css()          -> Get or set CSS style
+
+Dimensions
+----------
+.height()       -> Get or set element height
+.width()        -> Get or set element width
+.innerHeight()  -> Get element height (includes padding)
+.innerWidth()   -> Get element width (includes padding)
+.outerHeight()  -> Get element height (includes padding + border)
+.outerWidth()   -> Get element width (includes padding + border)
