@@ -1,0 +1,18 @@
+Array / Object Utilities
+------------------------
+$.each(array|object, function(index, value){ ... })       -> Iterate over array or object
+$.map(array|object, function(index, value){ return ... }) -> Transform each element
+$.grep(array, function(value, index){ return ... })      -> Filter array elements
+$.inArray(value, array)                                  -> Get index of value in array (-1 if not found)
+$.merge(array1, array2)                                  -> Merge two arrays
+$.unique(array)                                          -> Remove duplicate DOM elements (array of elements)
+$.isArray(obj)                                           -> Check if variable is an array
+$.type(obj)                                              -> Get type of variable
+
+
+
+String Utilities
+----------------
+$.trim(string)                                           -> Remove whitespace from both ends
+$.camelCase(string)                                      -> Convert string to camelCase
+$.each(string.split(''), function(index, char){ ... })  -> Iterate over each character of a string
